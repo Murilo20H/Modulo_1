@@ -6,10 +6,9 @@ programa
 		escreva("Lista 5: exercício 3\n")
 		const inteiro quantidadeDeContas = 5
 		cadeia nomes[quantidadeDeContas]
-		inteiro cpfs[quantidadeDeContas]
+		real cpfs[quantidadeDeContas]
 		cadeia nomeDigitado
 		inteiro cpfDigitado
-		inteiro tentativas = 3
 		para(inteiro contador = 0; contador < quantidadeDeContas ; contador++)
 		{
 			escreva((contador + 1) + "° nome: ")
